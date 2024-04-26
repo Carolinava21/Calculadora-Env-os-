@@ -1,6 +1,7 @@
 # Objetivo de la Calculadora 
 Clientes puedan cotizar costos tentativos de los
 servicios de envío. Los fuertes de la calculadora es su sencillez y usabilidad.
+![deploy](https://github.com/Carolinava21/Delivery-Calculator/blob/main/assets/Calcu.JPG)
 
 # Caso:
 Una empresa de bodegaje y distribución de productos. 
