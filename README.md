@@ -1,7 +1,7 @@
 # Objetivo de la Calculadora 
 Clientes puedan cotizar costos tentativos de los
 servicios de envío. Los fuertes de la calculadora es su sencillez y usabilidad.
-![deploy](https://github.com/Carolinava21/Delivery-Calculator/blob/main/assets/Calcu.JPG)
+
 
 # Caso:
 Una empresa de bodegaje y distribución de productos. 
@@ -20,5 +20,7 @@ Es importante mencionar que existe un cargo mínimo por cada carga enviada a nue
 instalaciones, el cual es de 1.8 UF, por lo que, si el precio calculado con las fórmulas es
 menor se deberá mostrar el valor mínimo mencionado. Asimismo, se requiere un mínimo
 de 100 productos por carga enviada.
+
+![deploy](https://github.com/Carolinava21/Delivery-Calculator/blob/main/assets/Calcu.JPG)
 
 
