@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Calculadora Cotizaciones</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Cotizaciones</h1>
+      </header>
+    <div>
+        <section>
+          <h2>Ingresar datos</h2>
+        </section>
+        <ul class="datos">
+          <li class="input">
+            Cantidad de productos en la carga:
+            <input type="number" id="cantidad" name="cantidad" />
+          </li>
+          <li class="input">
+            Peso total de la carga: <input type="number" id="peso" name="peso" />
+          </li>
+          <li class="input">
+            Fecha de recepción de la carga:
+            <input type="date" id="fechaRE" name="fecha recepción" />
+          </li>
+          <li class="input">
+            Fecha de salida último producto de la carga:
+            <input type="date" id="fechaSA" name="fecha_salida" />
+          </li>
+        </ul>
+        <button type="submit" id="cotizar">Cotizar carga</button>
+      </div>
+      <br />
+      <hr />
+      <h1>Resultado Cotización</h1>
+      <div class="detallesC">
+        <section class="detalle">
+          <h2 class="letraD">Detalle</h2>
+        </section>
+        <ul>
+          <li class="resultado-li">
+            Precio de servicio en UF:
+            <p id="precioS"></p>
+          </li>
+          <li class="resultado-li">
+            Número de días mantención en bodega:
+            <p id="dias"></p>
+          </li>
+          <li class="resultado-li">
+            Precio de mantención en UF:
+            <p id="precioMant"></p>
+          </li>
+          <li class="resultado-li">
+            Subtotal en UF:
+            <p id="subtotal"></p>
+          </li>
+          <li class="resultado-li">
+            Porcentaje de descuento aplicado en caso corresponda en UF:
+            <p id="descuentos"></p>
+          </li>
+          <li class="resultado-li">
+            IVA calculado según subtotal en UF:
+            <p id="iva"></p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <section id="costoTotal">
+          <h2>Costo total</h2>
+        </section>
+        <ul>
+          <li class="resultado-li">
+            Total en UF:
+            <p id="totalUf"></p>
+          </li>
+          <li class="resultado-li">
+            Total en Pesos:
+            <p id="totalPesos"></p>
+          </li>
+        </ul>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
